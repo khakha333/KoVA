@@ -1,9 +1,6 @@
 # Korea Visa AI Assistant (KoVA)
 
 
-
-![Architecture Diagram](files/architecture_diagram.png)
-
 ## 🚀 Project Overview
 **Korea Visa Assistant (KoVA)** is an AI chatbot service built on AWS that uses a RAG (Retrieval-Augmented Generation) architecture to recommend the optimal Korean visa type for each user and guide them through the application process and required documents.
 
@@ -26,7 +23,7 @@
   - If the user does not yet meet eligibility, provides a step-by-step strategy and preparation roadmap  
 
 ## 🏗️ Architecture
-![Architecture Diagram](images/architecture_diagram.png)
+![Architecture Diagram](files/architecture_diagram.png)
 
 1. **Streamlit Frontend**  
    - Receives user input → calls API Gateway → displays response  
@@ -56,4 +53,4 @@ streamlit run app.py
 
 
 ## 📑 Presentation Materials
-(/files/presentation.pdf)
+![PresentationMaterials](/files/presentation.pdf)
