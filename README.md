@@ -47,7 +47,7 @@ Configure AWS resources
    - Deploy Lambda function and API Gateway, grant Bedrock invoke permissions
    - Initialize Faiss index with build_faiss_index.py
 
-# Run the local frontend
+## Run the local frontend
 streamlit run app.py
 
 
