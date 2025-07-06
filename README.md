@@ -42,10 +42,10 @@
 
 ## ⚙️ Installation & Usage
 
-# Configure AWS resources
-#    - Create an S3 bucket and upload visa regulation documents
-#    - Deploy Lambda function and API Gateway, grant Bedrock invoke permissions
-#    - Initialize Faiss index with build_faiss_index.py
+Configure AWS resources
+   - Create an S3 bucket and upload visa regulation documents
+   - Deploy Lambda function and API Gateway, grant Bedrock invoke permissions
+   - Initialize Faiss index with build_faiss_index.py
 
 # Run the local frontend
 streamlit run app.py
